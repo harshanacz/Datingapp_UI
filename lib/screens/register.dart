@@ -16,8 +16,16 @@ class RegisterScreen extends StatefulWidget {
 
 class _RegisterScreenState extends State<RegisterScreen> {
   final _formKey = GlobalKey<FormState>();
+  final _nameController = TextEditingController();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
+
+  String? validateName(String? value) {
+    if (value == null || value.trim().isEmpty) {
+      return 'Name is required.';
+    }
+    return null; // return null if there are no errors
+  }
 
   String? validateEmail(String? value) {
     if (value == null || value.isEmpty) {
@@ -82,9 +90,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         ),
                         const SizedBox(height: 5.0),
                         CustomTextField(
-                          controller: _emailController,
+                          controller: _nameController,
                           obscureText: false,
-                          validator: validateEmail,
+                          validator: validateName,
                         ),
                         const CustomText(
                           text: "Enter your Email",
