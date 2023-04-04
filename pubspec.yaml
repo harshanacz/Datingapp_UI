@@ -32,6 +32,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   google_fonts: ^4.0.3
   flutter_native_splash: ^2.2.19
+  swipe_cards: ^2.0.0+1
 
 dev_dependencies:
   flutter_test:
@@ -65,6 +66,9 @@ flutter:
     - assets/frame.png
     - assets/heart.png
     - assets/reg.png
+    - assets/filter_icon.png
+    - assets/Rex.png
+    - assets/John.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
