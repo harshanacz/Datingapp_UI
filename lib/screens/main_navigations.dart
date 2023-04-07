@@ -20,6 +20,9 @@ class _MainNavigationsState extends State<MainNavigations> {
     if (!_isLoaded) {
       _pages = [
         const Home(),
+        const Home(),
+        const Home(),
+        const Home(),
         /*
         Likes page goes here
         Chat page goes here
