@@ -69,6 +69,11 @@ flutter:
     - assets/filter_icon.png
     - assets/Rex.png
     - assets/John.png
+    - assets/ian.jpg
+    - assets/joseph.jpg
+    - assets/matheus.jpg
+    - assets/michael.jpg
+    - assets/rafaella.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -1,8 +1,5 @@
 import 'package:datingapp_ui/widgets/swipe_card.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:swipe_cards/swipe_cards.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -40,7 +37,15 @@ class _HomeState extends State<Home> {
               ],
             ),
           ),
-          const Expanded(child: SwipeCard())
+          const Expanded(
+            child: Padding(
+              padding: EdgeInsets.only(
+                top: 35,
+                bottom: 45,
+              ),
+              child: SwipeCard(),
+            ),
+          ),
         ],
       ),
     );

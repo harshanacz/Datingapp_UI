@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'screens/get_started.dart';
 import 'screens/main_navigations.dart';
+import './screens/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Dating app',
-      home:MainNavigations(),
+      home: MainNavigations(),
     );
   }
 }
