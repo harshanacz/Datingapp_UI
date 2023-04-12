@@ -1,10 +1,8 @@
-import 'dart:math';
-import 'package:datingapp_ui/screens/login.dart';
+import 'package:datingapp_ui/screens/auth/login.dart';
 import 'package:flutter/material.dart';
-
-import '../const/colors.dart';
-import '../widgets/custom_button.dart';
-import '../widgets/custom_text.dart';
+import '../../const/colors.dart';
+import '../../widgets/custom_button.dart';
+import '../../widgets/custom_text.dart';
 
 class GetStartedScreen extends StatefulWidget {
   const GetStartedScreen({super.key});

@@ -1,6 +1,7 @@
+import 'package:datingapp_ui/screens/main/profile/profile.dart';
 import 'package:flutter/material.dart';
-import '../const/colors.dart';
-import './home.dart';
+import '../../const/colors.dart';
+import 'home.dart';
 
 class MainNavigations extends StatefulWidget {
   const MainNavigations({super.key});
@@ -20,14 +21,9 @@ class _MainNavigationsState extends State<MainNavigations> {
     if (!_isLoaded) {
       _pages = [
         const Home(),
-        const Home(),
-        const Home(),
-        const Home(),
-        /*
-        Likes page goes here
-        Chat page goes here
-        Profile page goes here
-        */
+        const Home(), //Likes page goes here
+        const Home(), //Chat page goes here
+        const ProfileScreen(),
       ];
       _isLoaded = true;
     }

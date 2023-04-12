@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'screens/get_started.dart';
-import 'screens/main_navigations.dart';
-import './screens/home.dart';
+import 'screens/main/main_navigations.dart';
 
 void main() {
   runApp(const MyApp());

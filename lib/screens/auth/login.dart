@@ -1,9 +1,9 @@
-import 'package:datingapp_ui/screens/register.dart';
+import 'package:datingapp_ui/screens/auth/register.dart';
 import 'package:flutter/material.dart';
-import '../const/colors.dart';
-import '../widgets/custom_button.dart';
-import '../widgets/custom_text.dart';
-import '../widgets/custom_textformfield.dart';
+import '../../const/colors.dart';
+import '../../widgets/custom_button.dart';
+import '../../widgets/custom_text.dart';
+import '../../widgets/custom_textformfield.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
